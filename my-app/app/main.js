@@ -95,10 +95,9 @@ const makeMove = function (cell, moves) {
 	} else {
 		return append(cell, moves)
 	}
-} 
+}
 
 console.log(makeMove(0, makeMove(3, makeMove(4, []))))  */
-
 import $ from 'jquery'
 
 const played = function (el) {

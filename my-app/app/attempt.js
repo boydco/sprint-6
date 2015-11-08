@@ -25,12 +25,14 @@ const wins = [
 
 return filter ((win) => isAWin(board, player, win), wins).length > 0
 }
-
+*/
+/*
 const winner = ['x', 'o', 'x', 'o', 'x', '', 'x', '', 'o']
 
 console.log("Is O a winner? " + playerWins(winner, 'o'))
 console.log("Is X a winner? " + playerWins(winner, 'x'))
-
+*/
+/*
 import { addIndex, indexOf, map } from 'ramda'
 
 const makeBoard = function (moves) {
@@ -49,8 +51,8 @@ const makeBoard = function (moves) {
    }
 
    return mapIndexed((val,idx) => getCellFromMove(idx), new Array(9))
-} */
-
+} 
+*/
 /*
 const renderBoard = function (cells) {
   var board = document.createElement('div')
@@ -61,8 +63,8 @@ const renderBoard = function (cells) {
   document.getElementById('board').appendChild(board)
 }
 
-renderBoard(makeBoard([]).join('')) */
-
+renderBoard(makeBoard([]).join('')) 
+*/
 // Create a function called makeMove that takes two parameters:
 //
 // A "cell", which is the index of the cell in the board where we want to move.
@@ -116,7 +118,6 @@ const whoMovesNow = function (cells) {
 }
 
 console.log('Cell played? ' + played(e.target))  */
-
 
 //COPIED FROM GITHUB
 
